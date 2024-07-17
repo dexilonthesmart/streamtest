@@ -10,4 +10,6 @@ st.write("Talking to the dataset")
 
 df = pd.read_csv("mini model dataset.csv")
 
-df.head()
+head = df.head()
+
+st.text(head)
